@@ -24,6 +24,14 @@
   display: none;
 }
 
+#line-nav {
+  border: none;
+  border-top: 3px solid #333;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+  margin: 10px auto;
+  width: 60%;
+}
+
 .nav-link:hover {
   border-bottom: 2px solid #333;
 }
@@ -63,6 +71,14 @@
     padding: 10px;
     text-decoration: none;
     display: block;
+  }
+
+  #line-nav {
+    border: none;
+    border-top: 3px solid #333;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px auto;
+    width: 90%;
   }
 
   .dropdown:hover .dropdown-content {
