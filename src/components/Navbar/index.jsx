@@ -3,6 +3,7 @@ import "./style.css";
 export default function Navbar() {
   return (
     <div id="nav-container">
+      <hr id="line-nav"/>
       <ul id="nav-list">
         <li className="nav-item">
           <a className="nav-link" href="#">
@@ -34,6 +35,7 @@ export default function Navbar() {
           <a href="#">Contato</a>
         </div>
       </div>
+      <hr id="line-nav"/>
     </div>
   );
 }
