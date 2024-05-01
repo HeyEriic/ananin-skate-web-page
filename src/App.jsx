@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Logo from "./components/logo"
 import Main from "./components/Main"
 import Navbar from "./components/Navbar"
@@ -8,6 +9,7 @@ function App() {
       <Logo />
       <Navbar />
       <Main />
+      <Footer />
     </>
   )
 }
