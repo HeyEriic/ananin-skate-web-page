@@ -47,14 +47,21 @@
   }
 
   .dropbtn {
+    align-items: center;
     background-color: #fff;
     border: none;
     color: #333;
     cursor: pointer;
+    display: flex;
     font-size: 1.3rem;
     font-weight: bold;
     padding: 10px;
     width: 100vw;
+  }
+
+  .hamburguerBtn {
+    margin: 0 10px 0 20px;
+    font-weight: bold;
   }
 
   .dropdown-content {
@@ -90,6 +97,25 @@
   }
 
   .dropdown:hover .dropbtn {
+    background-color: #f2f2f2;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .dropdown {
+    display: none;
+  }
+
+  #line-nav {
+    border: none;
+    border-top: 3px solid #333;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  .dropdown-content a:hover {
     background-color: #f2f2f2;
   }
 }

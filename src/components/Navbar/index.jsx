@@ -1,9 +1,11 @@
+import { RxHamburgerMenu } from "react-icons/rx";
+
 import "./style.css";
 
 export default function Navbar() {
   return (
     <div id="nav-container">
-      <hr id="line-nav"/>
+      <hr id="line-nav" />
       <ul id="nav-list">
         <li className="nav-item">
           <a className="nav-link" href="#">
@@ -27,7 +29,9 @@ export default function Navbar() {
         </li>
       </ul>
       <div className="dropdown" id="dropdown">
-        <button className="dropbtn">Menu</button>
+        <button className="dropbtn">
+          <RxHamburgerMenu className="hamburguerBtn"/> Menu
+        </button>
         <div className="dropdown-content">
           <a href="#">Home</a>
           <a href="#">Sobre</a>
@@ -35,7 +39,7 @@ export default function Navbar() {
           <a href="#">Contato</a>
         </div>
       </div>
-      <hr id="line-nav"/>
+      <hr id="line-nav" />
     </div>
   );
 }
