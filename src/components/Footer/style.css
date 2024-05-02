@@ -1,4 +1,6 @@
 .footer {
+  background-color: #212529;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +31,7 @@
 
 .social-links a {
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 
 .social-links a:hover {
