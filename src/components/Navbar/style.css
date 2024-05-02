@@ -92,7 +92,7 @@
     width: 90%;
   }
 
-  .dropdown:active .dropdown-content {
+  .dropdown:hover .dropdown-content {
     display: block;
   }
 
