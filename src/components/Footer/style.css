@@ -41,28 +41,26 @@
 @media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
     align-items: flex-start;
     padding: 0;
   }
   
   .social-section, .supporters-section {
-    margin-top: 10px;
-    margin-right: 0;
+    margin: 10px 0 0 10px;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .footer {
     flex-direction: row;
-    width: 90vw;
+    width: 100vw;
     align-items: flex-start;
     padding: 0;
   }
   
   .social-section, .supporters-section {
-    margin-top: 10px;
-    margin-right: 0;
+    margin: 10px 0 0 10px;
   }
 }
 
@@ -75,7 +73,6 @@
   }
   
   .social-section, .supporters-section {
-    margin-top: 10px;
-    margin-right: 0;
+    margin: 10px 0 0 10px;
   }
 }
