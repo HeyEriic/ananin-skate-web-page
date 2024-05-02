@@ -24,6 +24,10 @@
   display: none;
 }
 
+.dropdown-content.show {
+  display: block;
+}
+
 #line-nav {
   border: none;
   border-top: 3px solid #333;
@@ -88,7 +92,7 @@
     width: 90%;
   }
 
-  .dropdown:hover .dropdown-content {
+  .dropdown:active .dropdown-content {
     display: block;
   }
 
