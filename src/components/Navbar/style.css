@@ -92,11 +92,11 @@
     width: 90%;
   }
 
-  .dropdown:hover .dropdown-content {
+  .dropdown:active .dropdown-content {
     display: block;
   }
 
-  .dropdown-content a:hover {
+  .dropdown-content a:active {
     background-color: #f2f2f2;
   }
 
